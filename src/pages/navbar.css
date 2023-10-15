@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  ul a{
+    text-decoration: none;
+  }
+
+.navbar{
+      line-height: 10vh;
+      box-shadow: rgba(50,50,93,0.23) 0 30px 30px -20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  .logo {
+      cursor: pointer;
+      letter-spacing: 2px;
+      text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+      color: #fff6a9;
+      font-family: "Sacramento", cursive;
+      text-align: center;
+    }
+      
+.nav-Links{
+    display: flex;
+    justify-content: flex-end;
+}
+   
+.nav-Links li{
+    color: orange;
+    font-size: 18px;
+    padding: 0px 10px;
+    margin: 0px 10px;
+    cursor: pointer;
+    list-style: none;
+    text-decoration: inherit;
+}
+    
+.nav-Links li:hover{
+   background: #ffa500;
+   color:white;
+   border-radius: 4px;
+
+}
+
+button{
+    border: none;
+    background-color: none;
+    font-size: 20px;
+    background-color: #fff;
+    color: #ffa500;
+
+}
+.mobile-menu-icon{
+    display: none;
+
+}
+   
+@media (max-width:768px) {
+   
+.nav-Links{
+    display: none;
+}
+.nav-Links-mobile{
+    z-index: 9999;
+    position: absolute;
+    top: 10%;
+    display: block;
+    list-style: none;
+
+    box-shadow: rgba(23, 126, 13, 0.301) 0 30px 30px -20px;
+  
+    transition: all 0.5s eas-in-out;
+    width: 100%;
+    background-color: white;
+
+}
+ul li {
+    padding: 32px;
+    text-decoration: none;
+    transition: all 0.5s eas-in-out;
+    text-align: center;
+}
+.mobile-menu-icon{
+    position: relative;
+    display: block;
+    right: 20px;
+}
+    
+}
+         
+          
+   
+     
+

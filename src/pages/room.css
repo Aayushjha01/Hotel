@@ -1,0 +1,55 @@
+.plate{
+  display: flex;
+  border: 34px solid #fff;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+ 
+  
+}
+ 
+  
+.plate img{
+ width: 100%;
+ height: auto;
+}
+.plate h1{
+  text-align: center;
+}
+.plate .plate1{
+  box-shadow: 0 5px 15px 0 rgba(0,0,0,.25);
+  padding: 1rem;
+}
+.plate .plate2{
+  box-shadow: 0 5px 15px 0 rgba(0,0,0,.25);
+  padding: 1rem;
+}
+.plate .plate3{
+  box-shadow: 0 5px 15px 0 rgba(0,0,0,.25);
+  padding: 1rem;
+}
+.plate .priceH{
+  display: block;
+  margin: 14px auto auto auto;
+  width: 80%;
+  padding: .5rem;
+  background: orange;
+  color: #fff;
+  border-radius: 10px;
+}
+ 
+
+  
+    
+@media (max-width:600px) {
+  .plate{
+      display: flex;
+      flex-wrap: wrap;
+  }
+  .room-text {
+    text-align: justify;
+  }
+}
+    
+
+  

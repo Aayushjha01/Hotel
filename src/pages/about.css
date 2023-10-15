@@ -1,0 +1,9 @@
+.services{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 32px 12px;
+    margin: 11vh auto;
+
+}

@@ -1,0 +1,60 @@
+.about{
+    display: flex;
+   align-content: center;
+   justify-content: center;
+    gap: 1rem ;
+    border: 35px solid white;
+    
+   }
+   .card{
+    box-shadow: 0 5px 17px 0 rgba(0,0,0,.4);
+     text-align: center;
+     background: #fff;
+     padding: 1rem;
+   }
+   .card img{
+   width: 70%;
+   height: auto;
+   border-radius: 50%;
+   border: 1px solid orange;
+   }
+   .card .image img{
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+    border: 1px solid orange;
+
+   }
+   .inner_para{
+       text-align: justify;
+       display: block;
+       margin: auto;
+       width: 80%;
+   }
+   .readmore button{
+       margin-top: 1rem;
+       padding: 0.3rem;
+       background: orange;
+       color: #fff;
+       border: 1px solid #fff;
+       border-radius: 12px;
+   }
+   #head{
+       color: orange;
+   }
+    
+   
+   @media(max-width:1300px){
+       .about{
+           flex-wrap: wrap;
+       }
+   }
+    
+   
+     
+   
+     
+   
+      
+       
+     
